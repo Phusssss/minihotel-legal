@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniHotel — Chính sách quyền riêng tư</title>
+  <style>
+    body { margin: 0; background: #F7F7F5; color: #202020; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+    h1 { font-size: 36px; line-height: 1.1; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; text-transform: uppercase; letter-spacing: .04em; }
+    p, li { color: #3a3a3a; }
+    .meta { color: #6B6B6B; font-size: 14px; }
+    a { color: #FF3000; }
+    .rule { height: 1px; background: #202020; margin: 18px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>MINIHOTEL</h1>
+  <p class="meta">Chính sách quyền riêng tư · Cập nhật 23/10/2026</p>
+  <div class="rule"></div>
+
+  <p>MiniHotel là ứng dụng quản lý khách sạn nhỏ. Chính sách này giải thích dữ liệu ứng dụng thu thập, mục đích sử dụng, nơi lưu trữ, thời gian lưu và quyền xóa dữ liệu của bạn.</p>
+
+  <h2>1. Dữ liệu thu thập</h2>
+  <ul>
+    <li>Email và thông tin xác thực tài khoản (mật khẩu do Firebase Authentication xử lý, ứng dụng không lưu mật khẩu).</li>
+    <li>Tên khách sạn và cấu hình phòng/loại phòng do bạn nhập.</li>
+    <li>Tên, số điện thoại, thông tin lưu trú của khách do bạn nhập.</li>
+    <li>Đơn đặt phòng, thanh toán, công nợ và ghi chú công việc.</li>
+  </ul>
+
+  <h2>2. Mục đích sử dụng</h2>
+  <p>Dữ liệu chỉ dùng để vận hành ứng dụng: hiển thị phòng, đơn, khách, doanh thu, công nợ, xuất hóa đơn/CSV và đồng bộ dữ liệu giữa các phiên đăng nhập của cùng tài khoản.</p>
+
+  <h2>3. Chia sẻ dữ liệu</h2>
+  <p>MiniHotel không bán và không chia sẻ dữ liệu cho quảng cáo hay bên thứ ba. Dữ liệu được lưu trên Google Firebase (Cloud Firestore/Authentication) với vai trò nhà cung cấp hạ tầng. Google xử lý dữ liệu theo điều khoản dịch vụ và chính sách bảo mật của Google.</p>
+
+  <h2>4. Lưu trữ và bảo mật</h2>
+  <p>Dữ liệu truyền qua HTTPS. Firestore Security Rules giới hạn mỗi tài khoản chỉ đọc/ghi dữ liệu có <code>ownerUid</code> trùng UID đăng nhập. Dữ liệu được lưu cho đến khi bạn xóa tài khoản hoặc gửi yêu cầu xóa.</p>
+
+  <h2>5. Quyền truy cập, sửa và xóa</h2>
+  <p>Bạn có thể xem và sửa dữ liệu trực tiếp trong ứng dụng. Để xóa vĩnh viễn tài khoản và toàn bộ dữ liệu khách sạn, mở <strong>Cài đặt → Xóa tài khoản &amp; dữ liệu</strong>. Ứng dụng sẽ xác thực lại, xóa dữ liệu Firestore thuộc tài khoản và xóa tài khoản Firebase Authentication.</p>
+  <p>Nếu không còn truy cập được ứng dụng, xem hướng dẫn tại <a href="account-deletion.html">trang xóa tài khoản</a> hoặc gửi email đến địa chỉ hỗ trợ bên dưới. Yêu cầu được xử lý trong vòng 30 ngày.</p>
+
+  <h2>6. Trẻ em</h2>
+  <p>Ứng dụng dành cho người quản lý khách sạn và không hướng đến trẻ em dưới 13 tuổi.</p>
+
+  <h2>7. Thay đổi chính sách</h2>
+  <p>Khi chính sách thay đổi, phiên bản mới sẽ được đăng tại trang này và cập nhật ngày ở đầu trang.</p>
+
+  <h2>8. Liên hệ</h2>
+  <p>Email hỗ trợ và yêu cầu dữ liệu: <a href="mailto:hotelmanagerdemo@gmail.com">hotelmanagerdemo@gmail.com</a></p>
+  <p class="meta">MiniHotel · Ứng dụng quản lý khách sạn nhỏ · Việt Nam</p>
+</main>
+</body>
+</html>

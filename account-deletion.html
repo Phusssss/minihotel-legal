@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniHotel — Xóa tài khoản và dữ liệu</title>
+  <style>
+    body { margin: 0; background: #F7F7F5; color: #202020; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+    h1 { font-size: 34px; line-height: 1.1; margin: 0 0 8px; }
+    h2 { font-size: 17px; margin: 28px 0 8px; text-transform: uppercase; letter-spacing: .04em; }
+    p, li { color: #3a3a3a; }
+    .meta { color: #6B6B6B; font-size: 14px; }
+    a { color: #FF3000; }
+    .rule { height: 1px; background: #202020; margin: 18px 0; }
+    .box { border: 1px solid #202020; padding: 16px; margin: 18px 0; background: #fff; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>XÓA TÀI KHOẢN &amp; DỮ LIỆU</h1>
+  <p class="meta">MiniHotel · Cập nhật 23/10/2026</p>
+  <div class="rule"></div>
+
+  <p>Bạn có thể xóa vĩnh viễn tài khoản MiniHotel và toàn bộ dữ liệu khách sạn thuộc tài khoản đó.</p>
+
+  <h2>Cách 1 — Xóa trực tiếp trong ứng dụng</h2>
+  <ol>
+    <li>Đăng nhập MiniHotel bằng tài khoản cần xóa.</li>
+    <li>Mở <strong>Cài đặt</strong> (biểu tượng bánh răng).</li>
+    <li>Chọn <strong>Xóa tài khoản &amp; dữ liệu</strong>.</li>
+    <li>Nhập email/mật khẩu để xác thực lại (hoặc xác nhận tài khoản Google), nhập chữ <strong>XÓA</strong> và xác nhận.</li>
+  </ol>
+
+  <h2>Dữ liệu sẽ bị xóa</h2>
+  <ul>
+    <li>Tài khoản Firebase Authentication (email, UID).</li>
+    <li>Tên khách sạn, loại phòng và phòng.</li>
+    <li>Đơn đặt phòng, khách lưu trú, thanh toán/công nợ.</li>
+    <li>Ghi chú công việc và dữ liệu cấu hình thuộc tài khoản.</li>
+  </ul>
+  <p>Dữ liệu được xóa khỏi Firestore và tài khoản đăng nhập bị xóa ngay sau khi xác thực thành công. Một số bản sao lưu hạ tầng của Google có thể tồn tại tạm thời theo chính sách của Google và sẽ được luân chuyển/xóa theo chu kỳ của nhà cung cấp.</p>
+
+  <h2>Cách 2 — Yêu cầu qua email</h2>
+  <div class="box">
+    <p>Nếu không còn truy cập được ứng dụng, gửi email đến <a href="mailto:hotelmanagerdemo@gmail.com">hotelmanagerdemo@gmail.com</a> với tiêu đề <strong>“MiniHotel — Yêu cầu xóa tài khoản”</strong> và địa chỉ email đã dùng để đăng ký.</p>
+    <p>Chúng tôi sẽ xác minh quyền sở hữu tài khoản và xử lý trong vòng <strong>30 ngày</strong>. Không cần cung cấp mật khẩu qua email.</p>
+  </div>
+
+  <h2>Trước khi xóa</h2>
+  <p>Hành động không thể hoàn tác. Nếu cần giữ dữ liệu, hãy xuất CSV/báo cáo trong ứng dụng trước khi xóa tài khoản.</p>
+
+  <p><a href="privacy-policy.html">Chính sách quyền riêng tư</a> · <a href="index.html">Trang pháp lý</a></p>
+</main>
+</body>
+</html>
